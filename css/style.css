@@ -1,0 +1,141 @@
+/*====================================*/
+/*BASIC SETUP*/
+/*====================================*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+/*====================================*/
+/*NAVICATION*/
+/*====================================*/
+.container {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+nav {
+    background: #ebe5e5;
+    overflow: hidden;
+}
+.images {
+    width: 150px;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+}
+.images img {
+    width: 100%;
+    margin: 20px 0;
+}
+.row ul {
+    list-style-type: none;
+}
+.row ul  li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.row ul  li a {
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: rgba(12, 12, 12, 0.55);
+    transition: .3s;
+}
+.row ul  li a:hover {
+    color: rgba(0,0,0,.7);
+}
+
+/*====================================*/
+/*SLIDER SECTION*/
+/*====================================*/
+
+
+.curssol .container .row {
+    background: #ffe7e7;
+    overflow: hidden;
+}
+.curssol-description {
+    width: 58%;
+    float: left;
+    margin-top: 160px;
+    margin-left: 20px;
+}
+.curssol-description h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.curssol-description p {
+    color: #564a4a;
+    margin-bottom: 10px;
+}
+.price {
+    font-size: 30px;
+    color: #000;
+}
+.coussol-images {
+    width: 38%;
+    float: left;
+}
+.coussol-images img {
+    width: 100%;
+}
+.btn {
+    padding: 10px 20px;
+    background: rgb(117, 230, 42);
+    color: #000;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/*====================================*/
+/*PRODUCT SECTION*/
+/*====================================*/
+.product .row {
+    padding-bottom: 100px;
+}
+.watch, .bag, .shoe {
+    width: 32%;
+    float: left;
+    margin-right: 24px;
+    border-radius: 5px;
+}
+.shoe {
+    margin-right: 0;
+}
+.watch-title {
+    width: 48%;
+    float: left;
+} 
+.watch-title h2 {
+    color: #fff;
+    margin-top: 65px;
+    margin-left: 30PX;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 400;
+}
+.watch-img img {
+    width: 137px;
+    height: auto;
+    padding: 5px 0;
+    height: auto;
+}
+.watch-img {
+    width: 48%;
+    float: left;
+}
+.watch-bg1 {
+    background: rgb(228, 87, 52);
+}
+.watch-bg2 {
+    background: rgb(40, 159, 133);
+}
+.watch-bg3 {
+    background: rgb(165, 193, 40);
+}
